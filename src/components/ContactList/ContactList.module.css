@@ -1,0 +1,53 @@
+.listContacts {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  line-height: 2.4;
+  padding-right: 25px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.contacts:hover {
+  background-color: rgb(223, 223, 223);
+}
+
+.contacts:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.nameField {
+  display: inline-block;
+  width: 160px;
+  padding-left: 20px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.phoneField {
+  display: inline-block;
+  width: 80px;
+  margin-right: 20px;
+  color: #808080;
+}
+
+.deleteBtn {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #dd0000;
+  background-color: #ff0000;
+  cursor: pointer;
+  text-align: center;
+  padding: 0;
+}

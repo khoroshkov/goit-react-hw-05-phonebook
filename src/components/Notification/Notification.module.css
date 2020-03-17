@@ -1,0 +1,16 @@
+.notificationContainer {
+  position: absolute;
+  top: 20px;
+  left: 240px;
+  width: 240px;
+  height: 40px;
+  border: 1px solid #fd0101;
+  border-radius: 6px;
+  background-color: rgba(252, 10, 10, 0.8);
+}
+
+.notificationMessage {
+  text-align: center;
+  line-height: 26pt;
+  color: rgb(252, 252, 252);
+}
